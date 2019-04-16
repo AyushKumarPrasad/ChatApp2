@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/shiva"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ayushkumar.chatapp.android.developer.software.StartPageActivity">
+
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/but2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@android:drawable/screen_background_light"
+        android:text="@string/already_have_an_account"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/but1"
+        android:layout_marginBottom="53dp"
+        android:background="@android:drawable/screen_background_light"
+        android:text="@string/register_here"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp" />
+</RelativeLayout>
